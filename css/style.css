@@ -1,0 +1,49 @@
+body{
+    overflow-y: hidden
+}
+.container {
+    display: flex;
+    justify-content: center;
+   
+    
+    
+
+}
+.section1{   
+    flex-grow: 1;
+    width: 100%;
+    height: 100vh;
+     
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+    box-shadow: 4px 4px 70px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.section2 {  
+    flex-grow: 1;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/login.png");
+    background-size: cover;
+    max-width: 50%;
+    
+    
+}  
+
+
+ .imgLogin{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+    
+
+
+}
+
+.imgLogin img{
+    width: 37%;
+
+
+
+}
