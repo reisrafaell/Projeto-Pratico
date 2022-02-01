@@ -1,0 +1,29 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+   
+}
+
+.sectionLeft{   
+    flex-grow: 1;
+    width: 100%;
+    height: 100vh;
+    color: white;     
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+    box-shadow: 4px 4px 70px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sectionRight {  
+    flex-grow: 1;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/login.png");
+    background-size: cover;
+    max-width: 50%;
+}

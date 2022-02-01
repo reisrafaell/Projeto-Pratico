@@ -3,31 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-   
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="./index.css">
+    
     <title>Home</title>
 </head>
 <body>
     <main class="container">
-       <section class="section1">
+       <section class="sectionLeft">
            <div class="containerSc1">
                <h1> Olá,</h1>
                <p>Para continuar navegando de forma <br> segura, efetue o loguin na rede.</p>
                <label >Login</label>
+
             <div class="txtInput">
                
             <div class="cardLogin">
                <input type="text" name="usuário" required placeholder="Usuário" id="placeholderLogin">
-               <img src="./img/Vector.png" alt="img-usuário">
+               <img src="./assets/Vector.png" alt="img-usuário">
             </div>
             <div class="cardLogin">
             <input type="password" name="senha" required placeholder="Senha">
-            <img src="./img/Vector (1).png" alt="img-senha">
+            <img src="./assets/Vector (1).png" alt="img-senha">
             </div>
             <div id="buttonLogin">
                 <button class="btnLogin">Continuar</button>
@@ -36,12 +33,9 @@
             </div>
             </div>
 
-
-
-
        </section>
-       <section class="section2">
-       <div class="imgLogin"> <img src="./img/Logo-Compasso-Branco-hor 1.png"  alt="Logo-Compasso-Branco-hor">
+       <section class="sectionRight">
+       <div class="imgLogin"> <img src="./assets/Logo-Compasso-Branco-hor 1.png"  alt="Logo-Compasso-Branco-hor">
         </div> 
 
        </section>
@@ -49,6 +43,7 @@
 
 
     </main>
+    <script type="module" src="./index.js"></script>
     
 </body>
 </html>

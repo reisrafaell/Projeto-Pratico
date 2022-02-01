@@ -1,0 +1,54 @@
+
+
+.txtInput{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+
+
+.cardLogin  {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+ 
+    
+    
+}
+.cardLogin input{
+    padding:1.4em 6.5em 1.4em 1em;
+    margin: 0.9em 0.5em;    
+    height: 2.8em;
+    background: #26292C;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    box-sizing: border-box;
+    
+    color: #FFFFFF;
+}
+
+
+#buttonLogin{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 3em 0;
+}
+
+
+.btnLogin{
+    width: 20.5em ;
+    
+    margin: 0 0 0 -1em;    
+    height: 3.2em;
+    background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    color: #FFFFFF;
+}

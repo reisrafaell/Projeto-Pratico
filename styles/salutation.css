@@ -1,0 +1,24 @@
+.containerSc1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+}
+
+
+.containerSc1 h1{
+    font-size: 3.5em;
+    margin: 3em 0 0.3em -2.8em;
+    
+}
+
+.containerSc1 p{
+    font-size: 1em;
+    margin: 0 1em 8em 1em;
+}
+.containerSc1 label{
+    font-size: 1.7em;
+    margin: 4em 0 0.5em -6.5em;
+    justify-content: center;
+         
+}
