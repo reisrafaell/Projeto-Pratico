@@ -18,15 +18,14 @@
 #homePart1{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    background: ;
+    justify-content: space-between;   
     width: 40%;
 }
 
 #logoPequena{
     width: 100%;
     height: 100%;
-    background: ;
+    
 }
 #logoPequena img{
     margin: 2em ;
@@ -42,7 +41,7 @@
     margin: -3em ;
     width: 100%;
     height: 80%;
-    background: ;
+    
 }
 #imgCompassBig img{
     width:  80%;
@@ -51,10 +50,30 @@
 }
 
 #homePart2{
+    display: flex;
+    flex-direction: column;
 
     background: rgb(95, 139, 95);
      width: 60%;
 }
+
+#homePartHome{
+    width: 100%;
+    height: 20%;
+    background: red;
+}
+
+
+#homePartHome2{
+    width: 100%;
+    height: 100%;
+    background: yellow;
+}
+
+
+
+
+
 #footer{
 
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
