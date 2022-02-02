@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    width: 100%;
+    
 }
 
 
@@ -17,7 +19,7 @@
     font-size: 1em;
     
 }
-.containerSc1 label{
+.containerSc1 h2{
     font-size: 1.7em;
     margin: 4em 0 0.5em ;
     justify-content: center;

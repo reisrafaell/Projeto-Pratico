@@ -1,52 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/icon_compass-removebg-preview.png">
     <link rel="stylesheet" href="./index.css">
-    
-    <title>Home</title>
+
+    <title>Login</title>
 </head>
+
 <body>
     <main>
-       <section class="sectionLeft">
-           <div class="containerSc1">
-               <h1> Olá,</h1>
-               <p>Para continuar navegando de forma <br> segura, efetue o loguin na rede.</p>
-               <label >Login</label>
+        <section id="Sectionlogin">
+            <div class="sectionLeft">
+                <div id="divLeft">
+                <div class="containerSc1">
+                    <h1> Olá,</h1>
+                    <p>Para continuar navegando de forma <br> segura, efetue o loguin na rede.</p>
+                    <h2>Login</h2>
 
-            <div class="txtInput">
-               
-            <div class="cardLogin">
-               <input  id="user" type="text" name="usuário" required placeholder="Usuário">
-               <img src="./assets/Vector.png" alt="img-usuário">
+                    <div class="txtInput">
+
+                        <div class="cardLogin" id="cardUser">
+
+                            <input  class="inputPc" id="user" type="text" name="usuário" required placeholder="Usuário">
+                            <img src="./assets/Vector.png" alt="img-usuário">
+
+                        </div>
+                        <div class="cardLogin" id="cardSenha">
+
+                            <input class="inputPc" type="password" name="senha" id="senhaa" required placeholder="Senha">
+                            <img src="./assets/Vector (1).png" alt="img-senha">
+
+                        </div>
+                        <div id="textError">
+                            <p id="pError">
+
+                            </p>
+
+                        </div>
+                        <div id="buttonLogin">
+                            <button type="button" class="btnLogin" id="buttonLoginb"> <p>Continuar</p> </button>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="cardLogin">
-            <input type="password" name="senha" id="senhaa" required placeholder="Senha">
-            <img src="./assets/Vector (1).png" alt="img-senha">
             </div>
-            <div id="textError">                
+            <div class="sectionRight">
+                <div class="imgLogin"> <img src="./assets/Logo-Compasso-Branco-hor 1.png"
+                        alt="Logo-Compasso-Branco-hor">
+                </div>
 
             </div>
-            <div id="buttonLogin">
-                <button class="btnLogin" id="#buttonLogin" >Continuar</button>
-            </div>
-            
-            </div>
-            </div>
+        </section>
+        <section id="sectionHome">
 
-       </section>
-       <section class="sectionRight">
-       <div class="imgLogin"> <img src="./assets/Logo-Compasso-Branco-hor 1.png"  alt="Logo-Compasso-Branco-hor">
-        </div> 
 
-       </section>
+
+
+
+        </section>
 
 
 
     </main>
-    <script  src="./index.js"></script>
-    
+    <script type="module" src="./index.js"> </script>
+
 </body>
+
 </html>
