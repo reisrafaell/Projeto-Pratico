@@ -1,0 +1,63 @@
+#sectionHome{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+#homeCenter{
+
+    display: flex;
+    width: 100%;
+    height: 90vh;
+   
+
+
+}
+#homePart1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: ;
+    width: 40%;
+}
+
+#logoPequena{
+    width: 100%;
+    height: 100%;
+    background: ;
+}
+#logoPequena img{
+    margin: 2em ;
+    width: 25%;
+    
+}
+
+
+
+#imgCompassBig {
+    display: flex;
+    align-items: flex-end;
+    margin: -3em ;
+    width: 100%;
+    height: 80%;
+    background: ;
+}
+#imgCompassBig img{
+    width:  80%;
+
+   
+}
+
+#homePart2{
+
+    background: rgb(95, 139, 95);
+     width: 60%;
+}
+#footer{
+
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    width: 100%;
+    height: 8em;
+}
