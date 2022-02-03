@@ -61,7 +61,7 @@
     display: flex;
     flex-direction: column;
 
-    background: rgb(95, 139, 95);
+   
      width: 60%;
 }
 
@@ -70,33 +70,34 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: 20%;
-    background: red;
+    height: 35%;
+  
 }
 
-#watch{
+#divWatch{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 40%;
     height: 100%;
-    background: green;
+  
 
 
 }
-#watch h1{
-    font-size: 700%;
+#divWatch h1{
+    font-size: 7vw;
     font-weight: bold;
     text-align: center;
     color: #222222;
-    margin: 0 0 -8px 0;
+    
     
 }
-#watch P{
+#divWatch p{
 
-    font-size: 80%;
+    font-size: 0.8vw;
     text-align: center;
+    font-weight: bold;
     color: #222222;
 
 
