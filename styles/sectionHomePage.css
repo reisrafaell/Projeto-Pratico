@@ -22,6 +22,11 @@
     width: 40%;
 }
 
+
+
+
+ /* img and logo of home */
+
 #logoPequena{
     width: 100%;
     height: 100%;
@@ -36,18 +41,21 @@
 
 
 #imgCompassBig {
-    display: flex;
-    align-items: flex-end;
+    display: flex;    
     margin: -3em ;
     width: 100%;
     height: 80%;
     
+    
 }
 #imgCompassBig img{
-    width:  80%;
+    max-width: 80%;
 
    
 }
+
+
+/*  segunda parte da home */
 
 #homePart2{
     display: flex;
@@ -57,18 +65,69 @@
      width: 60%;
 }
 
-#homePartHome{
+#homePartUp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     height: 20%;
     background: red;
 }
 
+#watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    background: green;
 
-#homePartHome2{
+
+}
+#watch h1{
+    font-size: 700%;
+    font-weight: bold;
+    text-align: center;
+    color: #222222;
+    margin: 0 0 -8px 0;
+    
+}
+#watch P{
+
+    font-size: 80%;
+    text-align: center;
+    color: #222222;
+
+
+
+}
+
+#climate{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background: rgb(99, 55, 129);
+
+
+}
+
+
+
+
+
+
+
+#homePartLow{
     width: 100%;
     height: 100%;
     background: yellow;
 }
+
+
 
 
 
