@@ -33,7 +33,7 @@
     
 }
 #logoPequena img{
-    margin: 2em ;
+    margin: 2vw ;
     width: 25%;
     
 }
@@ -42,7 +42,7 @@
 
 #imgCompassBig {
     display: flex;    
-    margin: -3em ;
+    margin: -3vw ;
     width: 100%;
     height: 80%;
     
@@ -130,13 +130,9 @@
 
 
 
-
-
-
-
-#footer{
+footer{
 
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
     width: 100%;
-    height: 8em;
+    height: 10vh;
 }
