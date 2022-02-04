@@ -15,7 +15,7 @@ const api = {
     const temp_unit = document.querySelector('#climate span')
 
     window.addEventListener('load', () => {
-        // if (navigator.geolocation)
+       
         if ("geolocation" in navigator){
             navigator.geolocation.getCurrentPosition(setPosition, showError);
         }
@@ -64,8 +64,6 @@ function displayResults(weather) {
 
   
 }
-
-container_temp.addEventListener('click', changeTemp)
 function changeTemp() {
     temp_number_now = temp_number.innerHTML
 
