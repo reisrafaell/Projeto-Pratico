@@ -1,6 +1,12 @@
+import stopwatch from "./stopwatch.js";
+
 export default function login() {
+
+
   
   const button = document.getElementById("buttonLoginb");
+
+ // const title = document.querySelector("title")
 
   const divErro = document.getElementById('textError')
 
@@ -28,6 +34,7 @@ export default function login() {
       borderSenha.style.border = "1px solid #ffffff";
       displaySection1.style.display = "none"
       displaySection2.style.display = "flex"
+      stopwatch();
 
     } else {
       msgErro.innerHTML ="Ops, usuário ou senha inválidos <br> Tente Novamente!";
