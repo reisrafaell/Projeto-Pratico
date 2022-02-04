@@ -104,19 +104,56 @@
 
 }
 
+/* parte do clima  */
+
 #climate{
 
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     width: 30%;
     height: 100%;
-    background: rgb(99, 55, 129);
+  
 
+}
+#climate h2{
+    font-size: 1.5vh;
+    font-weight: bold;
+    color: #222222;
+   
+}
+#containerClimate{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    margin-top: 4px;
+    background: red;
+    flex-direction: row;
+    
+    align-items:flex-start;
+    justify-content: center;
+}
+#iconWatch{
+    display: flex;
+    background: green;
+    height: 100%;
+    align-items: center;
+}
+
+#climate h1{
+    font-size: 4vw;
+    font-weight: bold;
+    
+    
 
 }
 
-
+#iconWatch img{
+    width: 4vw;
+    height: 4vh;
+    margin: 1vh;
+}
 
 
 
@@ -131,8 +168,23 @@
 
 
 footer{
-
+    display: grid;
+    grid-template-columns: 3fr 2fr ;
+    grid-column-start: 1 ;
+    grid-column-end: 4;
+    grid-gap: 1px;
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
     width: 100%;
     height: 10vh;
+}
+
+#one {
+    width: 1em;
+    background-color: aliceblue;
+}
+
+#one1{
+    grid-column-start: 1 ;
+    grid-column-end: 4;
+
 }
