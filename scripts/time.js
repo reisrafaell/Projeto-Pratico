@@ -64,6 +64,8 @@ function displayResults(weather) {
 
   
 }
+
+changeTemp()
 function changeTemp() {
     temp_number_now = temp_number.innerHTML
 
