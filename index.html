@@ -16,38 +16,42 @@
         <section id="Sectionlogin">
             <div class="sectionLeft">
                 <div id="divLeft">
-                <div class="containerSc1">
-                    <h1> Olá,</h1>
-                    <p>Para continuar navegando de forma <br> segura, efetue o loguin na rede.</p>
-                    <h2>Login</h2>
+                    <div class="containerSc1">
+                        <h1> Olá,</h1>
+                        <p>Para continuar navegando de forma <br> segura, efetue o loguin na rede.</p>
+                        <h2>Login</h2>
 
-                    <div class="txtInput">
+                        <div class="txtInput">
 
-                        <div class="cardLogin" id="cardUser">
+                            <div class="cardLogin" id="cardUser">
 
-                            <input  class="inputPc" id="user" type="text" name="usuário" required placeholder="Usuário">
-                            <img src="./assets/Vector.png" alt="img-usuário">
+                                <input class="inputPc" id="user" type="text" name="usuário" required
+                                    placeholder="Usuário">
+                                <img src="./assets/Vector.png" alt="img-usuário">
+
+                            </div>
+                            <div class="cardLogin" id="cardSenha">
+
+                                <input class="inputPc" type="password" name="senha" id="senhaa" required
+                                    placeholder="Senha">
+                                <img src="./assets/Vector (1).png" alt="img-senha">
+
+                            </div>
+                            <div id="textError">
+                                <p id="pError">
+
+                                </p>
+
+                            </div>
+                            <div id="buttonLogin">
+                                <button type="button" class="btnLogin" id="buttonLoginb">
+                                    <p>Continuar</p>
+                                </button>
+                            </div>
 
                         </div>
-                        <div class="cardLogin" id="cardSenha">
-
-                            <input class="inputPc" type="password" name="senha" id="senhaa" required placeholder="Senha">
-                            <img src="./assets/Vector (1).png" alt="img-senha">
-
-                        </div>
-                        <div id="textError">
-                            <p id="pError">
-
-                            </p>
-
-                        </div>
-                        <div id="buttonLogin">
-                            <button type="button" class="btnLogin" id="buttonLoginb"> <p>Continuar</p> </button>
-                        </div>
-
                     </div>
                 </div>
-            </div>
             </div>
             <div class="sectionRight">
                 <div class="imgLogin"> <img src="./assets/Logo-Compasso-Branco-hor 1.png"
@@ -59,39 +63,67 @@
         <section id="sectionHome">
 
             <div id="homeCenter">
-            <div id="homePart1">
+                <div id="homePart1">
 
-                <div id="logoPequena">
-                    <img src="./assets/LogoCompasso 1.png" alt="">
+                    <div id="logoPequena">
+                        <img src="./assets/LogoCompasso 1.png" alt="">
+                    </div>
+
+                    <div id="imgCompassBig">
+                        <img src="/assets/bola-LogoCompasso 1.png" alt="ImgCOmpasso">
+                    </div>
+
                 </div>
 
-                <div id="imgCompassBig">
-                    <img src="/assets/bola-LogoCompasso 1.png" alt="ImgCOmpasso">
+                <div id="homePart2">
+
+                    <div id="homePartUp">
+                        <div id="divWatch">
+
+                            <h1 id="watch">
+
+                            </h1>
+                            <p id="watchParagrafo"> </p>
+
+                        </div>
+
+                        <div id="climate">
+
+                            <h2>Santos Dumont-MG</h2>
+
+                            <div id="containerClimate">
+                                <div id="iconWatch" class="containerTemp">
+                                </div>
+
+                                <h1>22</h1>
+                                <span>°c</span>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div id="homePartLow">
+
+                    </div>
+
                 </div>
-
-
-
-
             </div>
 
-            <div id="homePart2">
+            <footer id="footer">
+                <div id="one"></div>
 
+                <div id="one1"></div>
+                <div id="one"></div>
+                <div id="one"></div>
 
-
-            </div>
-        </div>
-
-            <div id="footer">
-
-            </div>
-
-
+            </footer>
 
         </section>
-
-
-
     </main>
+
     <script type="module" src="./index.js"> </script>
 
 </body>

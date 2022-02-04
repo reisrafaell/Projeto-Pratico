@@ -18,18 +18,22 @@
 #homePart1{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    background: ;
+    justify-content: space-between;   
     width: 40%;
 }
+
+
+
+
+ /* img and logo of home */
 
 #logoPequena{
     width: 100%;
     height: 100%;
-    background: ;
+    
 }
 #logoPequena img{
-    margin: 2em ;
+    margin: 2vw ;
     width: 25%;
     
 }
@@ -37,27 +41,150 @@
 
 
 #imgCompassBig {
-    display: flex;
-    align-items: flex-end;
-    margin: -3em ;
+    display: flex;    
+    margin: -3vw ;
     width: 100%;
     height: 80%;
-    background: ;
+    
+    
 }
 #imgCompassBig img{
-    width:  80%;
+    max-width: 80%;
 
    
 }
 
-#homePart2{
 
-    background: rgb(95, 139, 95);
+/*  segunda parte da home */
+
+#homePart2{
+    display: flex;
+    flex-direction: column;
+
+   
      width: 60%;
 }
-#footer{
 
+#homePartUp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 35%;
+  
+}
+
+#divWatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+  
+
+
+}
+#divWatch h1{
+    font-size: 7vw;
+    font-weight: bold;
+    text-align: center;
+    color: #222222;
+    
+    
+}
+#divWatch p{
+
+    font-size: 0.8vw;
+    text-align: center;
+    font-weight: bold;
+    color: #222222;
+
+
+
+}
+
+/* parte do clima  */
+
+#climate{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+  
+
+}
+#climate h2{
+    font-size: 1.5vh;
+    font-weight: bold;
+    color: #222222;
+   
+}
+#containerClimate{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    margin-top: 4px;
+    background: red;
+    flex-direction: row;
+    
+    align-items:flex-start;
+    justify-content: center;
+}
+#iconWatch{
+    display: flex;
+    background: green;
+    height: 100%;
+    align-items: center;
+}
+
+#climate h1{
+    font-size: 4vw;
+    font-weight: bold;
+    
+    
+
+}
+
+#iconWatch img{
+    width: 4vw;
+    height: 4vh;
+    margin: 1vh;
+}
+
+
+
+
+
+#homePartLow{
+    width: 100%;
+    height: 100%;
+    background: yellow;
+}
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 3fr 2fr ;
+    grid-column-start: 1 ;
+    grid-column-end: 4;
+    grid-gap: 1px;
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
     width: 100%;
-    height: 8em;
+    height: 10vh;
+}
+
+#one {
+    width: 1em;
+    background-color: aliceblue;
+}
+
+#one1{
+    grid-column-start: 1 ;
+    grid-column-end: 4;
+
 }
