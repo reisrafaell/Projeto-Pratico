@@ -8,9 +8,9 @@ export default function time() {
   const city = document.querySelector("#climate h2");
 
   const container_img = document.querySelector("#iconWatch");
-  const container_temp = document.querySelector(".containerTemp");
+  //const container_temp = document.querySelector(".containerTemp");
   const temp_number = document.querySelector("#climate h1");
-  const temp_unit = document.querySelector("#climate span");
+  //const temp_unit = document.querySelector("#climate span");
 
   window.addEventListener("load", () => {
     if ("geolocation" in navigator) {
