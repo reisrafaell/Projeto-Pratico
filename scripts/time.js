@@ -65,8 +65,8 @@ function displayResults(weather) {
   
 }
 
-changeTemp()
-function changeTemp() {
+
+(function changeTemp() {
     temp_number_now = temp_number.innerHTML
 
     if (temp_unit.innerHTML === "°c") {
@@ -79,7 +79,7 @@ function changeTemp() {
         temp_unit.innerHTML = "°c"
         temp_number.innerHTML = Math.round(c)
     }
-}
+})
 
 
 }
