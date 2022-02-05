@@ -50,7 +50,7 @@ export default function time() {
   function displayResults(weather) {
     console.log(weather);
 
-    city.innerText = `${weather.name}, ${weather.sys.country}`;
+    city.innerText = `${weather.name},-MG `; ///${weather.sys.country}
 
     let iconName = weather.weather[0].icon;
     container_img.innerHTML = `<img src="../assets/icons2/${iconName}.png">`;
