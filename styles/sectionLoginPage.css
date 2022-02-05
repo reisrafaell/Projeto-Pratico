@@ -1,7 +1,11 @@
 
-
-
-
+#Sectionlogin{
+    /*display: flex;  retirar aqui*/
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
 
 #divLeft{
 
@@ -11,9 +15,6 @@
     justify-content: center;
     width: 35%;
     height: 100vh;
-
-
-
 }
 
 .sectionLeft{ 
@@ -27,8 +28,6 @@
     align-items: center;
     
 }
-
-
 .sectionRight {  
     flex-grow: 1;
     width: 100%;

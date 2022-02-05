@@ -1,6 +1,80 @@
 
 #homePartLow {
+    display: grid;
+    grid-template-rows: 24% 9% 14% 14% 14% 24% ;
     width: 100%;
     height: 100%;
-    background: yellow;
+    /* background: rgb(231, 231, 134); */
   }
+
+#noContent {
+    grid-row: 1;
+    /* background: red; */
+
+} 
+#textOrangeOne{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 9%;
+    grid-row: 2;
+    /* background: yellow; */
+}
+#textOrangeTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    margin-right: 9%;
+    grid-row: 3;
+    /* background: orange; */
+}
+
+#textOrangeThree{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 9%;
+    grid-row: 4;
+    /* background: plum; */
+}
+#textOrangeOneFour{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 9%;
+    grid-row: 5;
+    /* background: wheat; */
+}
+#noContentTwo{
+    grid-row: 6;
+    /* background: lawngreen; */
+}
+
+#textOrangeOne h1{
+   
+    font-size: 1.8vw;
+    color:#C12D18 ;
+    
+}
+#textOrangeOne p{
+    font-size: 0.8vw;
+    color: #222222;
+}
+
+
+
+
+.textRight h1{
+    font-size: 3vw;
+    color:#C12D18 ;
+    font-weight: bold;
+    text-align: right;
+}
+
+.textRight p{
+    font-size: 0.8vw;
+    margin-top: 0.2vw;
+    color:#222222 ;
+    text-align: right;
+}

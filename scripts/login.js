@@ -6,7 +6,7 @@ export default function login() {
   
   const button = document.getElementById("buttonLoginb");
 
- // const title = document.querySelector("title")
+  const title = document.querySelector("title")
 
   const divErro = document.getElementById('textError')
 
@@ -34,6 +34,7 @@ export default function login() {
       borderSenha.style.border = "1px solid #ffffff";
       displaySection1.style.display = "none"
       displaySection2.style.display = "flex"
+      title.textContent ="Home"
       stopwatch();
 
     } else {

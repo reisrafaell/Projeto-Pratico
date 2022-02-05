@@ -1,5 +1,5 @@
 #sectionHome {
-  display: none;
+  display: none; /* retirar o flex aqui */
   flex-direction: column;
   width: 100%;
   height: 100vh;
@@ -16,14 +16,7 @@
   justify-content: space-between;
   width: 40%;
 }
-
-
-
-
-
-
-
-/*  segunda parte da home */
+/* home part two */
 
 #homePart2 {
   display: flex;
@@ -37,11 +30,11 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  height: 35%;
+  height: 31%;
 }
 
 
-/* parte do clima  */
+
 
 
 
