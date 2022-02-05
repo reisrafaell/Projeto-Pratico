@@ -45,7 +45,7 @@ export default function time() {
       .then((response) => {
         displayResults(response);
       });
-  }
+  } 
 
   function displayResults(weather) {
     console.log(weather);

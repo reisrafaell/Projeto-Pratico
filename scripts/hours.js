@@ -52,7 +52,7 @@ export default function hours()  {
     
    // console.log("Ativou setTimeout");
 
-    newDate.innerText = ` ${diaSemana[diaDaSemana]}, ${diaMes} de ${meses[mes]} de ${ano}. `;
+    newDate.innerText = ` ${diaSemana[diaDaSemana]}, ${diaMes<=9 ? '0' : ""}${diaMes} de ${meses[mes]} de ${ano}. `;
     
 
   
