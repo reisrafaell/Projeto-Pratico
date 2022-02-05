@@ -1,0 +1,21 @@
+
+#divWatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+  }
+  #divWatch h1 {
+    font-size: 7vw;
+    font-weight: bold;
+    text-align: center;
+    color: #222222;
+  }
+  #divWatch p {
+    font-size: 0.8vw;
+    text-align: center;
+    font-weight: bold;
+    color: #222222;
+  }
