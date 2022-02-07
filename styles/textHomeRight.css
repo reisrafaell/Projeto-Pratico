@@ -4,6 +4,7 @@
     grid-template-rows: 24% 9% 14% 14% 14% 24% ;
     width: 100%;
     height: 100%;
+    
     /* background: rgb(231, 231, 134); */
   }
 
@@ -53,12 +54,12 @@
 
 #textOrangeOne h1{
    
-    font-size: 1.8vw;
+    font-size: 180%;
     color:#C12D18 ;
     
 }
 #textOrangeOne p{
-    font-size: 0.8vw;
+    font-size: 110%;
     color: #222222;
 }
 
@@ -66,14 +67,14 @@
 
 
 .textRight h1{
-    font-size: 3vw;
+    font-size: 310%;
     color:#C12D18 ;
     font-weight: bold;
     text-align: right;
 }
 
 .textRight p{
-    font-size: 0.8vw;
+    font-size: 110%;
     margin-top: 0.2vw;
     color:#222222 ;
     text-align: right;
