@@ -55,7 +55,7 @@ export default function time() {
     let iconName = weather.weather[0].icon;
     container_img.innerHTML = `<img src="./assets/icons2/${iconName}.png">`;
 
-    let temperature = `${Math.round(weather.main.temp)}`;
+    let temperature = `${Math.round(weather.main.temp)}°`;
     temp_number.innerHTML = temperature;
   }
 }
