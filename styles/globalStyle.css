@@ -1,10 +1,10 @@
-body {
+* {
   overflow-y: hidden;
   font-family: "Poppins", sans-serif;
+  
 }
 
 main {
   display: flex;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
 }
