@@ -26,7 +26,7 @@ export default function hours()  {
   const diaSemana = new Array(
     "domingo",
     "segunda-feira",
-    "trça-feira",
+    "terça-feira",
     "quarta-feira",
     "quinta-feira",
     "sexta-feira",

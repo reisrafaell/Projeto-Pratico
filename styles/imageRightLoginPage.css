@@ -1,20 +1,15 @@
-
-.cardLogin img{
-    width: 1em;
-    height: 1em;
-    margin: 0 0 0 -1em;
+.cardLogin img {
+  width: 1em;
+  height: 1em;
+  margin: 0 0 0 -1em;
 }
 
- .imgLogin{
-    display: flex;
-    justify-content: center;
-    margin: 2em ;
- 
-
+.imgLogin {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
 }
 
-.imgLogin img{
-    width: 37%;
-
-
+.imgLogin img {
+  width: 37%;
 }

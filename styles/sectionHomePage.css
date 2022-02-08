@@ -1,5 +1,5 @@
 #sectionHome {
-  display: none; /* retirar o flex aqui */
+  display: none;
   flex-direction: column;
   width: 100%;
   height: 100vh;
@@ -33,52 +33,4 @@
   height: 31%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* rodapé */
-

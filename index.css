@@ -1,6 +1,6 @@
 @import url("./styles/reset.css");
 
-@import url('https://discordapp.com/channels/@me/934610945215455244/939132894037815316');
+@import url("https://discordapp.com/channels/@me/934610945215455244/939132894037815316");
 
 @import url("./styles/globalStyle.css");
 
@@ -29,3 +29,5 @@
 @import url("./styles/sectionTimerFooter.css");
 
 @import url("./styles/sectionButtonFooter.css");
+
+@import url("./styles/media.css");

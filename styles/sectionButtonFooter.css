@@ -1,33 +1,29 @@
+#textFooterFive button {
+  font-size: 12px;
+  text-decoration: none;
+  background-color: transparent;
+  text-align: center;
+  border: 0;
+  color: #c13216;
+}
 
-  #textFooterFive button {
-    font-size: 12px;
-    text-decoration: none;
-    background-color: transparent;
-    text-align: center;
-    border: 0;
-    color: #c13216;
-  }
-  
-  #textFooterSix {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background: pink; */
-    grid-column: 8;
-  }
-  #textFooterSix button {
-    font-size: 12px;
-    text-decoration: none;
-    background-color: transparent;
-    border: 0;
-    color: #ffffff;
-    /* color: #C13216; */
-  }
-  
-  #textFooterSix button:hover{
-    font-size: 16px ;
-    cursor: pointer;
-    color: #c13216;
-  
-  }
-  
+#textFooterSix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  grid-column: 8;
+}
+#textFooterSix button {
+  font-size: 12px;
+  text-decoration: none;
+  background-color: transparent;
+  border: 0;
+  color: #ffffff;
+}
+
+#textFooterSix button:hover {
+  font-size: 16px;
+  cursor: pointer;
+  color: #c13216;
+}
