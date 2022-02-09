@@ -21,9 +21,9 @@ export default function login() {
   const displaySection2 =  document.getElementById('sectionHome');
   
 
-  const borderInput = document.getElementById("user");
+  const borderInput = document.getElementById("cardUser");
 
-  const borderSenha = document.getElementById("senhaa");
+  const borderSenha = document.getElementById("cardSenha");
 
   
 

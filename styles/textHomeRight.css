@@ -1,6 +1,6 @@
 #homePartLow {
   display: grid;
-  grid-template-rows: 19% 12% 16.6% 16.6% 16.6% 19%;
+  grid-template-rows: 15% 12% 56%  15%;
   width: 100%;
   height: 100%;
 }
@@ -11,60 +11,49 @@
 #textOrangeOne {
   display: flex;
   flex-direction: column;
+  justify-content: end;
   align-items: flex-end;
   margin-right: 9%;
   grid-row: 2;
   flex-wrap: nowrap;
 }
 #textOrangeTwo {
+
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  flex-wrap: nowrap;
+  align-items: flex-end; 
+  justify-content: center;
   margin-right: 9%;
   grid-row: 3;
 }
 
-#textOrangeThree {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-right: 9%;
-  grid-row: 4;
-  flex-wrap: nowrap;
-}
-#textOrangeOneFour {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-right: 9%;
-  grid-row: 5;
-  flex-wrap: nowrap;
-}
 #noContentTwo {
-  grid-row: 6;
+  grid-row: 4;
   flex-wrap: nowrap;
 }
 
 #textOrangeOne h1 {
-  font-size: 180%;
+  font-size: 36px;
+  font-weight: bold;
   color: #c12d18;
 }
 #textOrangeOne p {
-  font-size: 110%;
+  font-size: 24px;
   color: #222222;
 }
 
 .textRight h1 {
-  font-size: 310%;
+  font-size: 64px;
+  height: 72px;
   color: #c12d18;
   font-weight: bold;
   text-align: right;
 }
 
 .textRight p {
-  font-size: 110%;
-  margin-top: 0.2vw;
+  font-size: 24px;
+  
   color: #222222;
+  padding-bottom: 18px;
   text-align: right;
 }

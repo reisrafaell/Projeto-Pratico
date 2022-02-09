@@ -16,12 +16,9 @@
   justify-content: space-between;
   width: 40%;
 }
-/* home part two */
-
 #homePart2 {
   display: flex;
   flex-direction: column;
-
   width: 60%;
 }
 
@@ -33,4 +30,4 @@
   height: 31%;
 }
 
-/* rodapé */
+
