@@ -4,14 +4,13 @@
   align-items: flex-start;
   justify-content: center;
   width: 100%;
-  height: 65%;
-  min-height: 35%;
-  background: rgb(188, 197, 174); 
+ 
+  min-height: 85%; 
 }
 
 .containerSc1 h1 {
   font-size: 60px;
-  height: 90px;
+  height: 60px;
   margin: 0 0 0.2em;
 }
 
@@ -22,7 +21,7 @@
 }
 .containerSc1 h2 {
   font-size: 30px;
-  padding: 10% 0 0.7em 0 ;
+  padding: 35% 0 4% 0 ;
   justify-content: center;
  
 }
