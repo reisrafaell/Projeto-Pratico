@@ -3,13 +3,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   grid-column: 5;
   color: #ffffff;
 }
 #textFooterThee h1 {
-  font-size: 2.5em;
+  font-size: clamp(1rem, 3vw, 3.5rem);
 }
 #textFooterThee p {
-  font-size: 0.7em;
+  font-size: clamp(0.5rem, 0.6vw, 1rem);
 }
