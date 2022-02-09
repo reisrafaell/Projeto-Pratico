@@ -1,8 +1,4 @@
-export default function hours()  {
-  //const containerSection = document.getElementById('sectionHome')
-
- // const containerWatch = document.getElementById("watch");
-
+export default function hours() {
   let newWatch = document.getElementById("watch");
 
   let newDate = document.getElementById("watchParagrafo");
@@ -14,8 +10,6 @@ export default function hours()  {
   let horas = date.getHours();
 
   let minutos = date.getMinutes();
-
- // let segundos = date.getSeconds();
 
   let diaDaSemana = date.getDay();
 
@@ -48,12 +42,11 @@ export default function hours()  {
     "Dezembro"
   );
 
-    newWatch.innerText = `${horas<=9 ? '0' : ""}${horas}:${minutos<=9 ? '0' : ""}${minutos}`;  
-    
-   // console.log("Ativou setTimeout");
+  newWatch.innerText = `${horas <= 9 ? "0" : ""}${horas}:${
+    minutos <= 9 ? "0" : ""
+  }${minutos}`;
 
-    newDate.innerText = ` ${diaSemana[diaDaSemana]}, ${diaMes<=9 ? '0' : ""}${diaMes} de ${meses[mes]} de ${ano}. `;
-    
-
-  
-};
+  newDate.innerText = ` ${diaSemana[diaDaSemana]}, ${
+    diaMes <= 9 ? "0" : ""
+  }${diaMes} de ${meses[mes]} de ${ano}. `;
+}

@@ -53,34 +53,18 @@ export default function time() {
     fetch('https://api.weatherapi.com/v1/current.json?key=4c8efc495f40411180e180531220302&q='+city+'&aqi=no')
     .then((respondes)=> respondes.json()).then(resultado=>{  let stateNameCity = resultado.location.region
 
-
       let nomeEstado = cityStateName(stateNameCity)
       console.log(nomeEstado)
       myCity.innerText = `${resultado.location.name} - ${nomeEstado} `; 
     })   
     
   }  
-  function displayResults(weather) { 
-    
+  function displayResults(weather) {     
 
     let iconName = weather.weather[0].icon;
     container_img.innerHTML = `<img draggable="false" src="./assets/icons2/${iconName}.png">`;
 
     let temperature = `${Math.round(weather.main.temp)}°`;
     temp_number.innerHTML = temperature;
-  }
-  
-
-
-    
-
-
-
-
-
-
-
-
-
-
+  }  
 }

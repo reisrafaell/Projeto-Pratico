@@ -6,39 +6,35 @@
   min-height: 45%;
   justify-content: center;
   align-items: flex-start;
-  
 }
 .cardLogin {
   display: flex;
   width: 100%;
-  height: 6vh;  
+  height: 6vh;
   justify-content: space-between;
-  align-items: center; 
-  border: 1px solid #ffffff; 
+  align-items: center;
+  border: 1px solid #ffffff;
   border-radius: 50px;
   box-sizing: border-box;
   color: #ffffff;
   padding: 2%;
-  
 }
-.txtInput #noContent{
+.txtInput #noContent {
   width: 100%;
   height: 2em;
-  
 }
 
 .cardLogin input {
-  width: 100%;  
-  height: 6vh;   
+  width: 100%;
+  height: 6vh;
   font-weight: bolder;
   background: transparent;
-  color: #ffffff; 
+  color: #ffffff;
   border: 0;
 }
 .cardLogin input:focus {
   outline-width: 0;
 }
-
 #textError {
   display: flex;
   width: 100%;
@@ -54,41 +50,25 @@
   text-align: center;
 }
 
-#buttonLogin {
-  display: flex;
-  width: 100%;
-  height: 6vh;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%); 
-  border-radius: 50px;
-}
 .btnLogin {
   width: 100%;
-  height: 2vh;
+  height: 6vh;
   min-height: 4vh;
-  border: 0;  
-  background: transparent;
+  border: 0;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #ff2d04 0%, #c13216 100%);
   cursor: pointer;
   color: #ffffff;
-  
+  font-size: clamp(1rem, 2vw, 1.5rem);
 }
-.cardLogin input::placeholder{
+.btnLogin p:hover {
+  color: #26292c;
+}
+.cardLogin input::placeholder {
   padding-left: 4%;
-
 }
 .inputPc::placeholder {
   color: #ffffff;
   letter-spacing: 0px;
   font-size: 18px;
 }
-
-.btnLogin p {
-  text-align: center;
-  font-size: clamp(0.8rem, 1vw, 1.2rem);
-  font-weight: bold;
-}
-.btnLogin p:hover{
-  color: #26292c;
-}
-

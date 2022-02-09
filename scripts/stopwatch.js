@@ -1,25 +1,18 @@
 export default function stopwatch() {
+  const timer = document.querySelector("#textFooterThee h1");
 
-    
-    const timer = document.querySelector("#textFooterThee h1");
+  let initTimer = 600; 
 
-    let initTimer = 600
-    let newNumber = parseInt(timer)
-  
-    console.log(newNumber)
-  
-   setInterval(() => {
-    timer.innerHTML = initTimer
-     initTimer--;
+  setInterval(() => {
+    timer.innerHTML = initTimer;
+    initTimer--;
     if (initTimer == 0) {
-     window.location.reload();
-
+        history.pushState(
+            null,
+            "Login - Compass",
+            "https://reisrafaell.github.io/Projeto-Pratico/"
+          )
+      window.location.reload();
     }
-
-
-   }, 1000);
-    
-       
-      
+  }, 1000);
 }
-

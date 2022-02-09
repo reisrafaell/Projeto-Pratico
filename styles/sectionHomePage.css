@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 100%;
   height: 100vh;
+  background: linear-gradient(105.96deg, #FFFFFF 0%, #F0F0F0 97.86%);
 }
 
 #homeCenter {
@@ -21,7 +22,6 @@
   flex-direction: column;
   width: 60%;
 }
-
 #homePartUp {
   display: flex;
   flex-direction: row;

@@ -1,3 +1,11 @@
+history.pushState(
+  null,
+  "Login - Compass",
+  "https://reisrafaell.github.io/Projeto-Pratico/login"
+)
+
+
+
 import login from "./scripts/login.js";
 import inputLogin from "./scripts/inputLogin.js";
 import hours from "./scripts/hours.js";
