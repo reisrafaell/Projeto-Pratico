@@ -17,8 +17,7 @@ export default function time() {
     } else {
       alert("Seu navegador não suporta geolozalicação");
     }
-    function setPosition(position) {
-      console.log(position);
+    function setPosition(position) {    
       let lat = position.coords.latitude;
       let long = position.coords.longitude;
       coordResults(lat, long);
@@ -53,8 +52,7 @@ export default function time() {
     fetch('https://api.weatherapi.com/v1/current.json?key=4c8efc495f40411180e180531220302&q='+city+'&aqi=no')
     .then((respondes)=> respondes.json()).then(resultado=>{  let stateNameCity = resultado.location.region
 
-      let nomeEstado = cityStateName(stateNameCity)
-      console.log(nomeEstado)
+      let nomeEstado = cityStateName(stateNameCity)     
       myCity.innerText = `${resultado.location.name} - ${nomeEstado} `; 
     })   
     
