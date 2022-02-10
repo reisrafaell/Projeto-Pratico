@@ -6,7 +6,7 @@ export default function stopwatch() {
   setInterval(() => {
     timer.innerHTML = initTimer;
     initTimer--;
-    if (initTimer == 0) {
+    if (initTimer === 0) {
         history.pushState(
             null,
             "Login - Compass",

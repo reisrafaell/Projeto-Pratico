@@ -58,20 +58,7 @@
     margin: 0 0 -12% 0;
   }
 }
-
 @media (max-width: 960px) {
-  #divLeft {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 55%;
-    height: 100vh;
-  }
-
-  .sectionRight {
-    width: 0%;
-  }
   #sectionLeft #imgMedia {
     visibility: visible;
     width: 35%;
@@ -83,24 +70,20 @@
     font-size: 100%;
     font-weight: bold;
   }
-  .inputPc::placeholder {
-    color: #ffffff;
-    letter-spacing: 0px;
-    font-size: 100%;
-  }
 
   .containerSc1 h2 {
     font-size: 25px;
     padding: 30% 0 0.5em 0;
     justify-content: center;
   }
+  
   .sectionLeft {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-  }
-
+  } 
+ 
   #divLeft {
     justify-content: flex-end;
     width: 60%;
@@ -144,20 +127,11 @@
   }
 }
 
-@media (max-width: 415px) {
-  #divLeft {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 55%;
-    height: 100vh;
-  }
+@media (max-width: 415px) { 
 
   .sectionRight {
     width: 0%;
   }
-
   .sectionLeft #imgMedia {
     visibility: visible;
     position: absolute;
@@ -176,22 +150,11 @@
     font-size: 100%;
     font-weight: bold;
   }
-  .inputPc::placeholder {
-    color: #ffffff;
-    letter-spacing: 0px;
-    font-size: 100%;
-  }
 
   .containerSc1 h2 {
     font-size: 25px;
     padding: 48% 0 0.5em 0;
     justify-content: center;
-  }
-  .sectionLeft {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
   }
   #divLeft {
     justify-content: flex-end;
