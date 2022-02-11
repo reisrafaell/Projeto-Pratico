@@ -9,6 +9,7 @@
 }
 
 #textFooter p{
+  font-size: clamp(0.3rem, 1vw, 0.8rem);
   text-align: end;
 }
 
